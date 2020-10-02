@@ -1,3 +1,7 @@
+body{
+    background: #ccc;/*#ccc cor cinza*/
+}
+
 #title,.subtitle,.post_title{
     color: blue;
 }
@@ -5,4 +9,11 @@
 .post_title{
     font-size: 16px;
     font-style: italic;
+}
+
+.post{
+    background: #fff;/*fff cor branca*/
+    padding: 10px;/* espaçamento entre a borda e o conteúdo*/
+    border: 3px solid #000 ;/*tamanho daa borda de 3px, linha solida , cor #000 preta*/
+    margin: 10px;
 }
