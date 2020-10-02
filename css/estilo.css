@@ -1,5 +1,6 @@
 body{
     background: #f7f7f7;/*#f7f7f7 cor cinza mais suave*/
+    font-family: Verdana;
 }
 
 .photo{
@@ -11,6 +12,16 @@ body{
 
 #title,.subtitle,.post_title{
     color: #505050;/*#505050* cor preta mai suave*/
+}
+
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    color: #505050;
 }
 
 
@@ -32,6 +43,7 @@ body{
 .post_content{
     margin: 0;/*zerando a margem do post_title*/
     margin-bottom: 15px;/* e adicionando 15px na margem inferior*/
+    text-transform: capitalize;
 
 }
 
