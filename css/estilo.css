@@ -1,19 +1,40 @@
 body{
-    background: #ccc;/*#ccc cor cinza*/
+    background: #f7f7f7;/*#f7f7f7 cor cinza mais suave*/
+}
+
+.photo{
+    height: 260px;/*Altura da foto*/
+    width: 240px;/*largura da foto*/
+    border-radius: 50%;/*arredondando a foto*/
+    border: 2px solid #505050;/*borda solida com cor preta suave*/
 }
 
 #title,.subtitle,.post_title{
-    color: blue;
+    color: #505050;/*#505050* cor preta mai suave*/
 }
+
 
 .post_title{
     font-size: 16px;
     font-style: italic;
+    margin: 0;/*zerando a margem do post_title*/
+    margin-bottom: 15px;/* e adicionando 15px na margem inferior*/
 }
 
 .post{
     background: #fff;/*fff cor branca*/
-    padding: 10px;/* espaçamento entre a borda e o conteúdo*/
-    border: 3px solid #000 ;/*tamanho daa borda de 3px, linha solida , cor #000 preta*/
-    margin: 10px;
+    padding: 15px;/* espaçamento entre a borda e o conteúdo*/
+    border: 3px solid #505050 ;/*tamanho daa borda de 3px, linha solida , cor #505050 cor preta mai suave*/
+    margin: 15px;
+    border-radius: 5px;/*arredondar as extremas do post*/
+}
+
+.post_content{
+    margin: 0;/*zerando a margem do post_title*/
+    margin-bottom: 15px;/* e adicionando 15px na margem inferior*/
+
+}
+
+.post_image{
+    margin-bottom: 15px;
 }
